@@ -26,6 +26,10 @@
         color: turquoise;
         background-color: lightgrey;
     } */
+    html {
+        scroll-behavior: smooth;
+    }
+
     .bullet li {
         list-style-type: none;
         padding: 5px;
@@ -39,6 +43,14 @@
 
     .pqr:hover {
         background-color: lightblue;
+    }
+
+    .box_style {
+        background-color: pink;
+        border: 5px double black;
+        margin: 40px;
+        padding: 20px;
+        text-align: center;
     }
 </style>
 
@@ -73,10 +85,39 @@
         My Name is Sayantan Das
     </p> -->
     <ul class="bullet">
-        <li class="pqr"><a href="#"> Section 1</a></li>
-        <li class="pqr"><a href="#"> Section 2</a></li>
-        <li class="pqr"><a href="#"> Section 3</a></li>
+        <li class="pqr"><a href="#box1"> Section 1</a></li>
+        <li class="pqr"><a href="#box2"> Section 2</a></li>
+        <li class="pqr"><a href="#box3"> Section 3</a></li>
     </ul>
+
+    <section class="box_style" id="box1">
+        <h1> Section 1 </h1>
+        <img src="https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-260nw-1029506242.jpg"
+            height="400px" width="300px" alt="Blog Section">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis obcaecati perferendis omnis laborum
+            incidunt rem voluptas. Accusantium omnis ipsa consequatur laboriosam modi sunt ducimus aliquam at doloribus
+            ratione, illum tempora?</p>
+
+    </section>
+    <section class="box_style" id="box2">
+        <h1> Section 2 </h1>
+        <img src="https://staminamarketing.com/blog/wp-content/uploads/2018/07/site-map-wordpress-scaled-1.jpg"
+            height="400px" width="300px" alt="Site Map Section">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis obcaecati perferendis omnis laborum
+            incidunt rem voluptas. Accusantium omnis ipsa consequatur laboriosam modi sunt ducimus aliquam at doloribus
+            ratione, illum tempora?</p>
+
+    </section>
+    <section class="box_style" id="box3">
+        <h1> Section 3 </h1>
+        <img src="https://media.istockphoto.com/id/1168945108/photo/close-up-image-of-male-hands-using-smartphone-with-icon-telephone-email-mobile-phone-and.jpg?b=1&s=612x612&w=0&k=20&c=paoKylHupt1tAyuqdpARvlW-yJKqf68Vla1qVPjHpYM="
+            height="400px" width="300px" alt="Contact Section">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis obcaecati perferendis omnis laborum
+            incidunt rem voluptas. Accusantium omnis ipsa consequatur laboriosam modi sunt ducimus aliquam at doloribus
+            ratione, illum tempora?</p>
+
+    </section>
+
 
 </body>
 
