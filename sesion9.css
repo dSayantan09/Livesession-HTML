@@ -1,0 +1,136 @@
+.border1 {
+    /*method 1*/
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: red; */
+    /*method 2*/
+    border: 2px solid blue;
+}
+
+.border2 {
+    border: 5px double navy;
+}
+
+.border3 {
+    border: 2px dotted darkred;
+}
+
+.border4 {
+    border: 2px dashed coral;
+}
+
+.border5 {
+    border: 10px groove red;
+}
+
+.border6 {
+    border: 10px inset red;
+}
+
+.border7 {
+    border: 10px outset red;
+}
+
+.border8 {
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.border_dir {
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 20px;
+    /*method 1*/
+    /* border-top: 3px solid navy;
+    border-bottom: 10px double navy;
+    border-right: 3px dashed navy;
+    border-left: 3px dotted navy; */
+    /* border-top: 5px double darkred;
+    border-bottom: 5px double darkred; */
+    /*method 2 */
+    border-width: 10px 0px;
+    /*(tb,rl)*/
+    border-width: 0px 30px;
+    /*(tb,rl)*/
+    border-width: 2px 20px 8px;
+    /*(t,rl,b)*/
+    border-width: 3px 5px 20px 15px;
+    /*(t,r,b,l)*/
+    border-color: darkred;
+    border-style: double;
+}
+
+.border_radius {
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+    border: 3px solid red;
+    border-radius: 40px;
+}
+
+.btn_css {
+    margin: 20px;
+    padding: 10px 30px;
+    /*(TB,RL)*/
+    background-color: white;
+    border: 3px double black;
+    border-radius: 12px;
+}
+
+.btn_css:hover {
+    background-color: lightcoral;
+    color: brown;
+    border-color: brown;
+}
+
+.form_css {
+    border: 2px solid navy;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_css label {
+    display: block;
+    margin: 20px 0px;
+    color: darkred;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form_css input {
+    width: 95%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    font-weight: bold;
+    font-style: italic;
+
+    border: 1px solid darkred;
+    border: none;
+    border-bottom: 3px double darkred;
+    /* border-radius: 2px; */
+
+}
+
+.form_css input:focus {
+    outline-width: 2px;
+    outline-style: double;
+    outline-color: goldenrod;
+    border-bottom: none;
+    /* outline: none; */
+}
+
+.form_css input::placeholder {
+    color: goldenrod;
+    font-size: 12px;
+}
+
+#demo_submit {
+    background-color: white;
+    border: 5px double goldenrod;
+    color: darkred;
+    width: 30%;
+    margin-top: 30px;
+}

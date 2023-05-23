@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Html Session 7</title>
+    <style>
+
+    </style>
+</head>
+<form>
+    <label> Username: </label>
+    <input type="text" placeholder="Enter your Name" value="" name="name_input">
+    <br />
+    <hr />
+    <label>Password: </label>
+    <input type="password" placeholder="Enter your Password" value="" name="Password_input">
+    <br />
+    <hr />
+    <label> Conatct Number: </label>
+    <input type="number" max="10" placeholder="Enter your Contact No" value="" name="Conatct_input">
+    <br />
+    <hr />
+    <label for="demo1">Age: </label>
+    <input type="number" min="18" max="50" placeholder="Age" value="" name="age_input" id="demo1">
+    <br />
+    <hr />
+    <label for="demo2">Email: </label>
+    <input type="email" value="" name="email_input" id="demo2">
+    <br />
+    <hr />
+    <label>Subjects: </label>
+    <label for="sub1">HTML/CSS: </label>
+    <input type="checkbox" id="sub1">
+    <label for="sub2">Javacript: </label>
+    <input type="checkbox" id="sub2" checked>
+    <label for="sub3">Node: </label>
+    <input type="checkbox" id="sub3">
+    <label for="sub4">React: </label>
+    <input type="checkbox" id="sub4">
+    <br />
+    <hr />
+    <label>Gender: </label>
+    <label for="value_1">Male: </label>
+    <input type="radio" name="gender_name" id="value_1">
+    <label for="value_2">Female: </label>
+    <input type="radio" name="gender_name" id="value_2">
+    <br />
+    <hr />
+    <label>Place: </label>
+    <select>
+        <option>Kolkata</option>
+        <option>Mumbai</option>
+        <option selected>Chennai</option>
+        <option>Delhi</option>
+        <option>Bengaluru</option>
+    </select>
+    <br />
+    <hr />
+    <label>Place: </label>
+    <select multiple>
+        <option selected>Kolkata</option>
+        <option>Mumbai</option>
+        <option>Chennai</option>
+        <option>Delhi</option>
+        <option>Bengaluru</option>
+    </select>
+
+    <br />
+    <hr />
+    <label>Option_Group Example: </label>
+    <select>
+        <optgroup label="Group 1">
+            <option> G1-A: </option>
+            <option> G1-B: </option>
+        </optgroup>
+        <optgroup label="Group 2">
+            <option> G2-x: </option>
+            <option> G2-y: </option>
+        </optgroup>
+    </select>
+    <label>Search your city</label>
+    <input placeholder="Enter your search" list="city_search">
+
+    <datalist id="city_search">
+        <option value="111-mumbai">Mumbai</option>
+        <option value="222-pune">Pune</option>
+        <option value="333-dehli">Delhi</option>
+        <option value="444-jaipur">Jaipur</option>
+    </datalist>
+    <br />
+    <hr />
+    <label>Date :</label>
+    <input type="date">
+    <label>Month :</label>
+    <input type="month">
+    <label>Time :</label>
+    <input type="time">
+
+    <br />
+    <hr />
+    <input type="submit">
+
+</form>
+
+<body>
+
+</body>
+
+</html>
