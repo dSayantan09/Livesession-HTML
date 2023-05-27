@@ -1,0 +1,58 @@
+.inner_box img {
+    width: 350px;
+    height: 250px;
+}
+
+.inner_box {
+    width: 28%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 1px 1px 5px 1px #80808082;
+}
+
+.main_box {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 70px;
+}
+
+.inner_box p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.inner_box button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_style {
+    background-color: yellowgreen;
+    padding: 15px 20px;
+    border: 5px double black;
+    color: black;
+}
+
+.heading_div h1 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 50px;
+    display: inline;
+}
+
+.heading_div i {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.btn_style:hover {
+    background-color: white;
+}
+
+.inner_box:hover h1 {
+    color: yellowgreen;
+}
+
+.inner_box:hover i {
+    color: yellowgreen;
+}

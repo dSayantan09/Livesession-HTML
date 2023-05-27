@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Activity</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            font-size: 20px;
+        }
+
+        #tab2 {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1-->
+    <table>
+        <tbody>
+            <tr>
+                <td>Colmu 1</td>
+                <td>Colmu 2</td>
+                <td>Colmu 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Row 1<br>Cell 1</td>
+                <td>Row1 Cell2</td>
+                <td>Row1 Cell3</td>
+            </tr>
+            <tr>
+                <td>Row2 Cell2</td>
+                <td>Row2 Cell3</td>
+            </tr>
+            <tr>
+                <td>Row 3<br>Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- 1 -->
+    <!-- 2-->
+    <br>
+    <table id="tab2">
+        <figcaption>A test table with merged cells</figcaption>
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td colspan="2" rowspan="2">Red Eyes</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Width</td>
+        </tr>
+        <tr>
+            <td>Male</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td colspan="2">40%</td>
+        </tr>
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td colspan="2">43%</td>
+        </tr>
+    </table>
+    <br>
+    <!-- 2 -->
+    <!--3-->
+    <table>
+        <tr>
+            <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                    height="100px" width="100px"></td>
+            <td>My Name is Sayantan Das</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+                    height="100px" width="100px"></td>
+            <td>My Name is Sayantan Das</td>
+        </tr>
+    </table>
+</body>
+
+</html>
